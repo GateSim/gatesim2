@@ -1874,7 +1874,7 @@ const [isBenchmarking, setIsBenchmarking] = useState(false);
   {isBenchmarking ? "Benchmarking..." : "Benchmark Circuit"}
 </button>
 
-        {/* <button onClick={() => { printgraph(graph) }}>print</button> */}
+        <button onClick={() => { console.table(graph) }}>print</button>
 
         {/* Hidden file inputs */}
         <input
